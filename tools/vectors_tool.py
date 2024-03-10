@@ -294,19 +294,6 @@ class square_matrix(matrix):
             iterate down the n-i non-zerod elements of each column
             use the vector.add and vector.subtract and vector.scalar operations
             veclist gives a list of row vectors, with defined EROs
-        try taking the transpose?
-        """
-        """
-        currently quite tempermental, doesn't for 2x2 and i've only checked for 3x3.
-        As it calculates a scale by divididng by useable_vecs[j].coord[j],
-        if there's a 0 in the first vector or in any of the non-final elements
-        to the right of the diagonal in the matrix that should result, it will blow up
-        
-        i have absolutely no idea how to get around that.
-        adding another vector won't work as there's no other vector to add.
-        determinant(which uses ERO for anything >2) seems to work for whatever
-        i've checked. got a bit confused cos i first checked with a 0-det matrix
-        no need for cramers rule anymore
         """
         """
         things to add:

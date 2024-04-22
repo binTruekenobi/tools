@@ -11,6 +11,6 @@ def function(x, y):
     return vec.multv([x, y])
 
 def plot_matrix(Lx, Ux, Sx, Ly=None, Uy=None, Sy=None):
-    plot_function_3d(function, Lx, Ux, Sx, Ly=Ly, Uy=Uy, stepsy=Sy)
+    pf.plot_function_3d(function, Lx, Ux, Sx, Ly=Ly, Uy=Uy, stepsy=Sy)
 
 plot_matrix(-5, 5, 100)

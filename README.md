@@ -33,3 +33,7 @@ polynomial_tools is semi-functional, very incomplete, but allows you to represen
 stats_tools is another backbone project, but the "statistics" module already exists so unless i get round to it this'll only get used for normal and t distribution integrators.
 
 wraps_toools was when i was learning decorators and figured i could make wraps to use to hook up all the other modules made in the future to matplotlib really easily.
+
+NEW:
+
+most code uses a standard "chop up the x - axis and iterate along" form of integrator, which is slow. calculus_programs will contain better integrators and differentiators

@@ -32,7 +32,7 @@ polynomial_tools is semi-functional, very incomplete, but allows you to represen
 
 stats_tools is another backbone project, but the "statistics" module already exists so this currently only gets used for normal and t distribution integrators.
 
-wraps_toools was when i was learning decorators and figured i could make wraps to use to hook up all the other modules made in the future to matplotlib really easily.
+wraps_toools was when learning decorators and figured wraps could be used to use to hook up all the other modules made in the future to matplotlib really easily.
 
 NEW:
 

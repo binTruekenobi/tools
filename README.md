@@ -34,6 +34,4 @@ stats_tools is another backbone project, but the "statistics" module already exi
 
 wraps_toools was when learning decorators and figured wraps could be used to use to hook up all the other modules made in the future to matplotlib really easily.
 
-NEW:
-
 most code uses a standard "chop up the x - axis and iterate along" form of integrator, which is slow. calculus_programs will contain better integrators and differentiators
